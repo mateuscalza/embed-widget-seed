@@ -1,0 +1,1 @@
+Seed project for a embeddable javascript widget (third-party javascript).

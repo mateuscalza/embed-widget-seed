@@ -1,0 +1,16 @@
+{
+  "name": "embed-widget-seed",
+  "version": "1.0.0",
+  "description": "Seed project for a embeddable javascript widget (third-party javascript).",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-requirejs-optimize": "1.2.0",
+    "gulp-serve": "1.4.0",
+    "gulp-watch": "4.3.9",
+    "run-sequence": "1.2.2"
+  },
+  "author": "Paulo Rodrigues (@paulog_gr)",
+  "license": "MIT",
+  "private": true
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<!--<script type="text/javascript">
+    var proto = document.location.protocol;
+    var host = "whatshelp.io";
+    var url = proto+"//"+host;
+    document.write(unescape("%3Cscript src='" + url + "/widget/widget.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    InitMsgUsWidget({
+        host: host,
+        proto: proto,
+        page: "399080230240046",
+        logoUrl: "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xaf1/v/t1.0-1/c17.0.100.100/p100x100/13173861_638724426275624_8983796025427911810_n.jpg?oh=6a42994460422354345eaf2dab7005cc&oe=585C776B&__gda__=1477534061_babe46c5bfb302e8fd6bf560af6ff55e",
+        text: "Hello, how may we help you? Just send us a message now to get assistance.",
+        color: "blue"
+    });
+</script>-->
+
+  <script type="text/javascript">
+    (function (window, document) {
+        var loader = function () {
+            var script = document.createElement("script"), tag = document.getElementsByTagName("script")[0];
+            script.async = true;
+            script.src = "//localhost:3000/widgets/converttalk.min.js";
+            tag.parentNode.insertBefore(script, tag);
+        };
+        window.addEventListener ? window.addEventListener("load", loader, false) : window.attachEvent("onload", loader);
+    })(window, document);
+  </script>
+
+</body>
+
+</html>

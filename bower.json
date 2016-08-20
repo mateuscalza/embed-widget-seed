@@ -1,0 +1,26 @@
+{
+  "name": "embed-widget-seed",
+  "authors": [
+    "Paulo GR"
+  ],
+  "description": "",
+  "license": "MIT",
+  "homepage": "https://twitter.com/paulo_gr",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "cash": "^1.3.4",
+    "requirejs": "^2.2.0",
+    "text": "requirejs-text#^2.0.15"
+  },
+  "dependencies": {
+    "almond": "^0.3.2"
+  }
+}
