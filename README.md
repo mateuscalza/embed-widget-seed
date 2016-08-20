@@ -10,7 +10,7 @@ Clone the repo and `npm install && bower install` to install all dependencies.
 ## Start
 `gulp start`
 
-So open you browser on `http://localhost:3000`
+So open your browser on `http://localhost:3000`
 
 ----------
 
